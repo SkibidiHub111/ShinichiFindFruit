@@ -24,9 +24,9 @@ if tonumber(AssetID) then
 end
 
 -- Biến điều khiển tính năng
-local ESPEnabled = true
-local AutoMoveEnabled = true
-local ServerHopEnabled = true
+local ESPEnabled = false
+local AutoMoveEnabled = false
+local ServerHopEnabled = false
 
 -- === Tính Năng Tìm Trái Ác Quỷ (ESP) ===
 local FruitTab = Window:CreateTab("🍎 Trái Ác Quỷ", nil)
